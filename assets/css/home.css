@@ -27,7 +27,7 @@ html[data-theme="dark"] {
   width: 100%;
 }
 .section {
-  background-color: rgb(63, 25, 170);
+  background-color: #8a5cf5;
   justify-content: center;
   align-items: center;
 }
@@ -133,17 +133,17 @@ html[data-theme="dark"] {
 }
 
 .social-icon.kaggle:after {
-  background-color: #41aff3;
+  background-color: #f34167;
   box-shadow: var(--kaggle);
 }
 
 .social-icon.dribbble:after {
-  background-color: #ea4c89;
+  background-color: #f336ab;
   box-shadow: var(--kaggle);
 }
 
 .social-icon.medium:after {
-  background-color: #00ab6c;
+  background-color: #24292e;
   box-shadow: var(--medium);
 }
 

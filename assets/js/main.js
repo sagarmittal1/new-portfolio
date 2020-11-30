@@ -28,7 +28,7 @@ function topFunction() {
 let header = $(`
 <nav class="cyan">
 <div class="nav-wrapper">
-    <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
+    <a href="index.html" class="brand-logo"><img src="assets/images/logo.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
@@ -42,6 +42,7 @@ let header = $(`
         <!-- <li><a class="white-text" href="research.html">Research</a></li> -->
 
         <li><a class="white-text" href="https://sagarmittal.hashnode.dev/" target="_blank">Blog</a></li>
+        <li><a class="white-text" href="https://www.stopstalk.com/user/profile/SagarMittal" target="_blank">CP Profile</a></li>
         <li><a class="white-text" href="https://drive.google.com/file/d/16TGbvzkVomPA98jOW40MlpXQ4iMbDTsc/view?usp=sharing" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
@@ -74,6 +75,7 @@ let header = $(`
 <!-- <li><a href="research.html">Research</a></li> -->
 
 <li><a href="https://sagarmittal.hashnode.dev/" target="_blank">Blog</a></li>
+<li><a href="https://www.stopstalk.com/user/profile/SagarMittal" target="_blank">CP Profile</a></li>
 <li><a href="https://drive.google.com/file/d/16TGbvzkVomPA98jOW40MlpXQ4iMbDTsc/view?usp=sharing" target="_blank">My Resume</a></li>
 
 
@@ -102,7 +104,7 @@ let footer = $(`
       <div class="col-lg-7 col-md-6 pt-3" >
       <div class="col-sm-6 col-md-7">
         <a class="webintern-footer-logo" href="#">
-          <center><img src="assets/images/John-Doe1.png"style="width: 220px;"/></center>
+          <center><img src="assets/images/logo.png"style="width: 220px;"/></center>
         </a>
         <div class="simple-text text-center dark padding-sm">
           <p >

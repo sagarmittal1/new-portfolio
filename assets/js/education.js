@@ -5,25 +5,26 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
+    title: "Technical Support Fundamentals",
     cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    moocLink: "https://www.coursera.org/learn/technical-support-fundamentals",
   },
   {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    title: "Fundamentals of digital marketing",
+    cardImage: "assets/images/education-page/google.png",
+    moocLink: "https://learndigital.withgoogle.com/digitalgarage/course/digital-marketing",
   },
   {
-    title: "Machine Learning",
+    title: "Mindshift: Break Through Obstacles",
     cardImage: "assets/images/education-page/coursera1.png",
     moocLink: "https://www.coursera.org/learn/machine-learning",
   },
   {
-    title: "Introduction to HTML 5",
+    title: "Introduction to JavaScipt",
     cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
   },
+  /**
   {
     title: "Introduction to CSS 3",
     cardImage: "assets/images/education-page/udacity_logo.png",
@@ -64,6 +65,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/udacity_logo.png",
     moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
+  **/
 ];
 
 const showCards = () => {
@@ -137,29 +139,31 @@ const timelinesection = [
     heading: "Global Institute of Technology",
     image: "./assets/images/education-page/gitjaipur.webp",
     subheading:"BTech in Computer Science, (2019-2023 (Expected) )",
-    description: "<li>SGPA - 8.54</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+    description: "<li>SGPA - 8.54</li><li>Chess Player</li><li>Coding Club Member</li>",
   },
 
+  {
+    heading: "Shiv Jyoti Sr. Sec. School, Kota",
+    image: "./assets/images/education-page/timeline-1.svg",
+    subheading:"Senior Secondary (PCM), (2017-2019)",
+    description: "<li>Percentage - 79.4%</li><li>Passed with First Division</li><li>Nothing more than that</li>",
+  },
+
+  {
+    heading: "M. B. Public School, Kota",
+    image: "./assets/images/education-page/timeline-1.svg",
+    subheading:"Secondary Education, (2017-2019)",
+    description: "<li>Percentage - 85.17%</li><li>Qualified RMO Stage - 1</li><li>Selected in NMTC Stage - 2</li><li>Got Bronze Medal in NSO Stage - 2</li>",
+  },
+
+  /*
   {
     heading: "Massachusetts Institute of Technology",
     image: "./assets/images/education-page/timeline-1.svg",
     subheading:"Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
-
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading:"Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
-
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading:"Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
+  */
 ];
 
 const showCards2 = () => {

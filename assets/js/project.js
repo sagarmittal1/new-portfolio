@@ -3,12 +3,12 @@
 const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
+    title: "DSA Subject Website",
+    cardImage: "assets/images/project-page/dsa-website.jpg",
     description:
-      "A quiz app built using basic react.",
-    Previewlink: "",
-    Githublink: "",
+      "A Jekyll powered website for the subject curriculum",
+    Previewlink: "https://sagar.ninja/3-DSA/",
+    Githublink: "https://github.com/sagarmittal1/3-DSA",
   },
   {
     title: "Chess Engine",
@@ -34,6 +34,7 @@ const projects = [
     Previewlink: "",
     Githublink: "",
   },
+  /**
   {
     title: "Recipe Ingredient Parser",
     cardImage: "assets/images/project-page/recipe.jpg",
@@ -98,6 +99,7 @@ const projects = [
     Previewlink: "",
     Githublink: "",
   },
+  **/
 ];
 
 const showCards = () => {

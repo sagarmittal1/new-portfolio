@@ -2,7 +2,7 @@
 html[data-theme = 'light']
 {
 	--bg-mybtn: red;
-	--bg-nav: #000000;
+	--bg-nav:#1d1818;
   --bg-nav-img: #000000;
   --bg: #ffffff;
   --text: #191919;
@@ -462,7 +462,7 @@ html.transition *:after {
 }
 
 .form-group:focus {
-  border: 2px solid black;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .text-animation {
@@ -513,7 +513,7 @@ html.transition *:after {
 }
 
 .social-icon-footer:hover{
-  background-color: #0dfde5;
+  background-color: #16f1dcdc;
   transform: translateY(-4px);
 }
 
