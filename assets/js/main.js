@@ -26,19 +26,23 @@ function topFunction() {
 //Footer and Navbar
 
 let header = $(`
-<nav class="black">
+<nav class="cyan">
 <div class="nav-wrapper">
     <a href="#!" class="brand-logo"><img src="assets/images/John-Doe1.png"></a>
     <a href="#" data-target="mobile-demo" class="white-text sidenav-trigger"><i
             class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
         <li><a class="white-text" href="index.html">Home</a></li>
-        <li><a class="white-text" href="experience.html">Experience</a></li>
-        <li><a class="white-text" href="projects.html">Projects</a></li>
-        <li><a class="white-text" href="research.html">Research</a></li>
+
+        <!-- <li><a class="white-text" href="experience.html">Experience</a></li> -->
+
         <li><a class="white-text" href="education.html">Education</a></li>
-        <li><a class="white-text" href="index.html">Blog</a></li>
-        <li><a class="white-text" href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
+        <li><a class="white-text" href="projects.html">Projects</a></li>
+
+        <!-- <li><a class="white-text" href="research.html">Research</a></li> -->
+
+        <li><a class="white-text" href="https://sagarmittal.hashnode.dev/" target="_blank">Blog</a></li>
+        <li><a class="white-text" href="https://drive.google.com/file/d/16TGbvzkVomPA98jOW40MlpXQ4iMbDTsc/view?usp=sharing" target="_blank">My Resume</a></li>
         <!--TOGGLE FOR LIGHT/DARK MODE-->
         <li>
         <label for="switch" class="theme-switch">
@@ -61,12 +65,16 @@ let header = $(`
 <!--Side Nav Bar -->
 <ul class="sidenav" id="mobile-demo">
 <li><a href="index.html">Home</a></li>
-<li><a href="experience.html">Experience</a></li>
-<li><a href="projects.html">Projects</a></li>
-<li><a href="research.html">Research</a></li>
+
+<!-- <li><a href="experience.html">Experience</a></li> -->
+
 <li><a href="education.html">Education</a></li>
-<li><a href="index.html">Blog</a></li>
-<li><a href="https://docs.google.com/document/d/1-SX2Pz1rD9D1IS-r5PpCCb1JeihSM_BtnI5Y9uruQGc/edit?usp=sharing" target="_blank">My Resume</a></li>
+<li><a href="projects.html">Projects</a></li>
+
+<!-- <li><a href="research.html">Research</a></li> -->
+
+<li><a href="https://sagarmittal.hashnode.dev/" target="_blank">Blog</a></li>
+<li><a href="https://drive.google.com/file/d/16TGbvzkVomPA98jOW40MlpXQ4iMbDTsc/view?usp=sharing" target="_blank">My Resume</a></li>
 
 
 <!--TOGGLE FOR LIGHT/DARK MODE-->
@@ -98,7 +106,7 @@ let footer = $(`
         </a>
         <div class="simple-text text-center dark padding-sm">
           <p >
-            "Develop a passion for learning. If you do, you will never cease to grow."
+            "I’m a curious little CS sophomore looking to create impact with what I learn."
           </p>
         <div class="empty-space xs-25 sm-25"></div>
       </div>
@@ -106,26 +114,29 @@ let footer = $(`
     <!-- Social media icons for footer -->
 
 <div class="social-icons-footer">
-  <a class="social-icon-footer twitter" href="" target="_blank" rel="author">
+  <a class="social-icon-footer twitter" href="https://twitter.com/sagar_mittal5" target="_blank" rel="author">
     <i class="fab fa-twitter"></i>
       </a>
-  <a class="social-icon-footer dribbble" href="" target="_blank" rel="author">
-    <i class="fab fa-dribbble"></i>
-      </a>
-  <a class="social-icon-footer linkedin" href="" target="_blank" rel="author">
-    <i class="fab fa-linkedin-in"></i>
-      </a>
-  <a class="social-icon-footer medium" href="" target="_blank" rel="author">
-    <i class="fab fa-medium-m"></i>
-      </a>
-  <a class="social-icon-footer kaggle" href="" target="_blank" rel="author">
-    <i class="fab fa-kaggle"></i>
-      </a>
-  <a class="social-icon-footer github" href="" target="_blank" rel="author">
+  <a class="social-icon-footer github" href="https://github.com/sagarmittal1" target="_blank" rel="author">
     <i class="fab fa-github"></i>
       </a>
+  <a class="social-icon-footer linkedin" href="https://linkedin.com/in/sagarmittal5" target="_blank" rel="author">
+    <i class="fab fa-linkedin-in"></i>
+      </a>
+  <a class="social-icon-footer instagram" href="https://instagram.com/sagar_mittal5" target="_blank" rel="author">
+    <i class="fab fa-instagram"></i>
+      </a>
+  <a class="social-icon-footer dev" href="https://dev.to/sagar_mittal" target="_blank" rel="author">
+    <i class="fab fa-dev"></i>
+      </a>
+
+  <a class="social-icon-footer envelope" href="mailto:mittalsagar006@gmail.com" target="_blank" rel="author">
+    <i class="far fa-envelope"></i>
+      </a>
+
+
   <br>
-<p style="color:white;><a href=" ">contact@johndoe.com</a></p>
+
 </div>
     </div>
 
@@ -160,7 +171,7 @@ let footer = $(`
 </div>
 <div class="tt-copy">
   <div class="container col-sm-6">
-   <!-- <center class="text-animation">Made with <i class="fa fa-heart" style="color: red;"></i></center>-->
+    <!-- <center class="text-animation">Made with <i class="fa fa-heart" style="color: red;" by Sagar Miital></i></center> -->
   </div>
 </div>
 </footer>`);
